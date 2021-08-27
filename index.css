@@ -3,6 +3,7 @@ html, body {
   padding: 0;
   font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
   color: #1c1e21;
+  background-color: #F0F6FB;
 }
 
 .container {
@@ -74,6 +75,35 @@ html, body {
   font-weight: bolder;
 }
 
+.desc a {
+  margin: 0px 8px;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+  text-decoration: none;
+
+  border: 2px solid black;
+  padding: 10px 12px;
+}
+
+.desc a:hover {
+  opacity: 0.6;
+}
+
+.viewProject {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+.viewCode {
+  font-weight: bold;
+  border: 2px solid black !important;
+  color: black;
+}
+
+.link-container {
+  padding-top: 10px;
+}
+
 .view-article-cta:hover {
   background-color: #358bfa;
 }
@@ -82,11 +112,15 @@ html, body {
   width: 100%;
   padding: 0px 0px 20px 0px;
   background: white;
-  border-top: 2px solid black;
+  border-top: 1px solid black;
+  border-radius: 0px 0px 5px 5px;
+  padding-bottom: 40px;
 }
 
 .item {
-  border: 2px solid black;
+  border: 1px solid rgb(160, 160, 160);
+  background-color: white;
+  border-radius: 5px;
   height: 300px;
   width: 33.3%;
   margin: 30px;
@@ -96,6 +130,9 @@ html, body {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)  ; 
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)  ; 
+	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)  ; 
 }
 
 .item:nth-child(1) {
